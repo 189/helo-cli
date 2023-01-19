@@ -1,2 +1,13 @@
-# helo-cli
-Simple scaffold tool to create front-end app fast
+# rollup-lib-ts
+
+### Install
+
+```
+$ pnpm install
+```
+
+### Development
+
+```
+$ pnpm dev
+```
