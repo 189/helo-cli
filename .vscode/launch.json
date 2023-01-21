@@ -9,14 +9,7 @@
       "request": "launch",
       "name": "init",
       "program": "${workspaceFolder}/lib/index.js",
-      "args": ["init2", "xx"]
-    },
-    {
-      "type": "node",
-      "request": "launch",
-      "name": "init:simple",
-      "program": "${workspaceFolder}/lib/index.js",
-      "args": ["init", "xx"]
+      "args": ["init", "xx", "-f"]
     }
   ]
 }
