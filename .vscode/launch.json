@@ -8,10 +8,15 @@
       "type": "node",
       "request": "launch",
       "name": "init",
-      "program": "${workspaceFolder}/src/helo.ts",
-      "preLaunchTask": "tsc: build - tsconfig.json",
-      "outFiles": ["${workspaceFolder}/out/**/*.js"],
-      "args": ["init"]
+      "program": "${workspaceFolder}/lib/index.js",
+      "args": ["init2", "xx"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "init:simple",
+      "program": "${workspaceFolder}/lib/index.js",
+      "args": ["init", "xx"]
     }
   ]
 }
