@@ -9,7 +9,7 @@
       "request": "launch",
       "name": "init",
       "program": "${workspaceFolder}/lib/index.js",
-      "args": ["init", "xx", "-f"]
+      "args": ["init", "xx"]
     }
   ]
 }
