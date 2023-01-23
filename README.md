@@ -5,7 +5,7 @@ CLI to automatically create app with specified template.
 ## Install
 
 ```
-$ npm install helo -g
+$ npm install @helo-cli/helo -g
 ```
 
 ## Usage
