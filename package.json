@@ -1,6 +1,7 @@
 {
-  "name": "helo",
+  "name": "@helo-cli/helo",
   "version": "1.1.1",
+  "displayName": "helo",
   "main": "src/index.js",
   "bin": "bin/helo.js",
   "type": "module",
