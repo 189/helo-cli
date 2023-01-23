@@ -1,39 +1,44 @@
 {
-  "name": "helo",
-  "version": "1.0.0",
-  "main": "dist/helo.cjs.js",
-  "module": "dist/helo.esm.js",
-  "browser": "dist/helo.umd.js",
+  "name": "@helo-cli/helo",
+  "version": "1.2.0",
+  "displayName": "helo",
+  "main": "src/index.js",
+  "bin": "bin/helo.js",
+  "type": "module",
   "scripts": {
-    "build": "rollup --config rollup.config.js --bundleConfigAsCjs",
-    "dev": "rollup --config rollup.config.js --bundleConfigAsCjs -w",
-    "test": "ts-node test/test.ts",
-    "pretest": "npm run build",
-    "prepare": "husky install"
+    "test": "node test/test.js",
+    "vers": "standard-version"
   },
   "dependencies": {
-    "@types/node": "^18.11.18",
+    "chalk": "^5.2.0",
     "commander": "^10.0.0",
-    "ms": "^2.0.0",
-    "rollup": "^3.10.0"
+    "compressing": "^1.7.0",
+    "fast-glob": "^3.2.12",
+    "istextorbinary": "^6.0.0",
+    "mkdirp": "^2.1.3",
+    "mustache": "^4.2.0",
+    "npm-updater": "^3.0.3",
+    "urllib": "^3.10.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.4",
     "@commitlint/config-conventional": "^16.2.4",
     "@duiyuan/commitlint-config": "^0.1.0",
     "@duiyuan/eslint-config": "^0.1.3",
-    "@rollup/plugin-commonjs": "^24.0.0",
-    "@rollup/plugin-node-resolve": "^15.0.1",
-    "@rollup/plugin-typescript": "^11.0.0",
-    "@types/ms": "^0.7.30",
     "eslint": "^8.14.0",
     "husky": "^8.0.0",
+    "inquirer": "^9.1.4",
     "prettier": "^2.6.2",
-    "ts-node": "^7.0.1",
-    "tslib": "^1.9.3",
-    "typescript": "^4.3.2"
+    "standard-version": "^9.5.0",
+    "typescript": "^4.9.4"
   },
-  "files": [
-    "dist"
-  ]
+  "keywords": [
+    "helo",
+    "helo cli",
+    "cli"
+  ],
+  "engines": {
+    "node": ">=14.16"
+  },
+  "exports": "./src/index.js"
 }
