@@ -9,7 +9,8 @@
   "scripts": {
     "test": "node test/test.js",
     "vers": "standard-version",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "start": "node lib/index.js init fax"
   },
   "dependencies": {
     "chalk": "^5.2.0",
