@@ -39,7 +39,7 @@ Commands:
 
 ```
 $ helo init -h
-Usage: helo init demo --type lib-ts
+Usage: helo init demo --type ts-lib
 
 create project in specified directory
 
