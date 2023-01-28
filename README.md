@@ -17,9 +17,9 @@ $ helo init <your_project_name>
 
 ? please pick up a boilerplate (Use arrow keys)
   ──────────────
-❯ ts (typescript app boilerplate, pack with rollup)
-  js (simple js app)
-
+❯ ts lib (typescript app boilerplate, pack with rollup)
+  js lib (simple js app)
+  esm lib (simple js app, with esmodule)
 ```
 
 ```
